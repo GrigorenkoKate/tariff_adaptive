@@ -85,7 +85,6 @@ body {
 .container {
    margin: 0 auto;
    max-width: 1200px;
-   
 }
 
 @media (max-width: 600px) {
@@ -128,6 +127,13 @@ body {
    display: flex;
    justify-content: center;
    margin-bottom: 33px;
+   color: #418ccf;
+   font-family: "Roboto";
+}
+
+.premium__client :hover{
+   color: #112B42;
+   border-bottom:none;
 }
 
 @media (max-width: 600px) {
@@ -137,11 +143,14 @@ body {
 }
 .premium__client-owner {
    margin-right: 39px;
+   border-bottom: 1px dashed #418ccf;
 }
 .premium__client-agent {
    margin-right: 39px;
+   border-bottom: 1px dashed #418ccf;
 }
 .premium__client-builder {
+   border-bottom: 1px dashed #418ccf;
 }
 
 .block__1 {
@@ -161,7 +170,7 @@ body {
 .premium__tariff {
    min-width: 590px;
    background: #ffffff;
-   box-shadow: 0px 4px 15px rgba(0, 17, 51, 0.2);
+   border: 1px solid #EAEBEE;
    border-radius: 3px;
    padding: 30px 20px;
    display: flex;
@@ -233,7 +242,6 @@ body {
 @media (max-width: 600px) {
    .premium__tariff-block-views.premium__tariff-block-views--mobile {
       display: inline-block;
-      justify-content: center;
       margin-bottom: 8px;
    }
 }
