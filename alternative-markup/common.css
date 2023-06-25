@@ -1,0 +1,75 @@
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1220px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+/* h1  */
+.h1 {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 40px;
+  color: #112b42;
+  margin-bottom: 20px;
+}
+
+.h1.h1--text-center {
+  text-align: center;
+}
+/* h1 //end */
+
+/* subtitle */
+.subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #a2aab0;
+  margin-bottom: 30px;
+}
+
+.subtitle.subtitle--text-center {
+  text-align: center;
+}
+
+/* subtitle //end */
+
+/* fake-link-container */
+.fake-link-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 40px;
+}
+
+.fake-link-container.fake-link-container--center {
+  justify-content: center;
+}
+/* fake-link-container //end */
+
+/* fake-link */
+.fake-link {
+  display: inline-flex;
+  color: #418ccf;
+  border-bottom: 1px dashed #418ccf;
+  transition: color 0.25s, border-color 0.25;
+}
+
+.fake-link:hover {
+  color: #112b42;
+  border-bottom-color: transparent;
+}
+
+/* fake-link //end */
